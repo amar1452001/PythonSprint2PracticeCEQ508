@@ -36,7 +36,7 @@ token = "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"
 #     req = requests.get(url, auth=(token,''))
 #     print(req)
 #     return req.json()
-# print(list_head_commit("amar1452001","TerraformAssignment1CEQ508","commit_sha"))
+# print(list_head_commit("amar1452001","TerraformAssignment1CEQ508","9d5885a1dfa129ab443f945740ecf48b6a7d23b5"))
 
 
 #Listing pull requests associated with a commit
@@ -47,7 +47,7 @@ token = "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"
 #     req = requests.get(url, auth=(token,''))
 #     print(req)
 #     return req.json()
-# print(list_pull_commit("amar1452001","PythonAssignment1cloudeqAmar","ac8f8b3b34048407ef9e6f434af891165a11959a"))
+# print(list_pull_commit("amar1452001","PythonSprint2PracticeCEQ508","9d5885a1dfa129ab443f945740ecf48b6a7d23b5"))
 
 # A Git reference ( git ref ) is a file that contains a Git commit SHA-1 hash. When referring to a Git commit, you can use the Git reference, which is an easy-to-remember name, rather than the hash. The Git reference can be rewritten to point to a new commit.
 
@@ -59,4 +59,6 @@ def get_commit(owner,repo,ref):
     req = requests.get(url, auth=(token,''))
     print(req)
     return req.json()
-print(get_commit("amar1452001","PythonAssignment1cloudeqAmar","ref"))
+print(get_commit("amar1452001","PythonSprint2PracticeCEQ508","9d5885a"))
+
+
